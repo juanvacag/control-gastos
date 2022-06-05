@@ -1,0 +1,26 @@
+desde la carpeta PADRE, habrimos una terminal y tecleamos
+    npm init vite@latest
+        nos pide:
+        1º nombre del proyecto
+        2º seleccionamos react
+        3º seleccionamos react sin typescript
+
+    cd nombre del proyecto
+
+    npm install (nos crea todos los archivos necesarios para poder trabajar)
+
+    npm run dev (creo un servidor para poder ver nuestro proyecto)
+
+    desde nuestro editor, en nuestro caso Visual Studio Code, añadimos al index.html:
+
+    -normalize-
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+    -fuente de google fonts-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    tambien hemos añadido, dentro de los materiales del curso;
+        -una carpeta con algunas imagenes
+        -index.css
