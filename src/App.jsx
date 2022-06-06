@@ -7,15 +7,14 @@ function App() {
 
   const [presupuesto, setPresupuesto] = useState(0);
   const [isValidPresupuesto, setIsValidPresupuesto] = useState(false);
+  
   const [modal, setModal] = useState(false); 
   const [animarModal, setAnimarModal] = useState(false);
   
   const handleNuevoGasto = () => {
-    //console.log("click para añadir un nuevo gasto");
     setModal(true);
 
     setTimeout(() => {
-        //console.log('animando formulario en un segundo');
         setAnimarModal(true);
     }, 500);
   }
