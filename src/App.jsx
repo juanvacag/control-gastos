@@ -21,8 +21,8 @@ function App() {
     }, 500);
   }
 
-  const guardarGasto = gasto => {
-    console.log(gasto);
+  const guardarGasto = (gasto) => {
+    setGastos([...gastos, gasto]);
   }
 
   return (
