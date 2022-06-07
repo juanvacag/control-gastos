@@ -111,8 +111,9 @@ header h1 {
     width: 100%;
     transition: background-color 300ms ease;
 }
+
 @media (min-width: 768px) {
-    .formulario input[type="submit"] {
+    .formulario input[type="submit"], juan input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
     }
@@ -145,8 +146,8 @@ header h1 {
     border-left: 5px solid #b91c1c;
     color: #b91c1c;
 }
-.alerta.success {
-}
+/* .alerta.success {
+} */
 
 .contenedor {
     width: 90%;
