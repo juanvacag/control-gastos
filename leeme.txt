@@ -24,3 +24,7 @@ desde la carpeta PADRE, habrimos una terminal y tecleamos
     tambien hemos añadido, dentro de los materiales del curso;
         -una carpeta con algunas imagenes
         -index.css
+
+tambien instalaremos para la animación (editar/borrar) de los gastos:
+npm i --save prop-types  
+npm i react-swipeable-list
