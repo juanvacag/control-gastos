@@ -25,6 +25,9 @@ desde la carpeta PADRE, habrimos una terminal y tecleamos
         -una carpeta con algunas imagenes
         -index.css
 
-tambien instalaremos para la animación (editar/borrar) de los gastos:
+instalaremos para la animación (editar/borrar) de los gastos:
 npm i --save prop-types  
 npm i react-swipeable-list
+
+instalaremos para la animación de el progreso circular
+npm i react-circular-progressbar
